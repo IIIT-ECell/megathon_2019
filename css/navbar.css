@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-family: 'Barlow', sans-serif;
+    font-weight: var(--font-bold);
+    font-size: 1.5rem;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: var(--font-bold);
+    color: white !important;
+    margin-left: 60px;
+}

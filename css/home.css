@@ -145,3 +145,11 @@ body {
         line-height: 17rem;
     }
 }
+
+.main-heading{
+    font-family: "Muli";
+    font-weight: 900;
+    letter-spacing: -0.07em;
+    color: #313131;
+    line-height: 0.8em;
+}
