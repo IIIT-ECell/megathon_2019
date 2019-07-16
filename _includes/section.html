@@ -1,0 +1,8 @@
+{% if include.style %}
+    <link href="{{ site.baseurl }}/css/{{ include.style }}.css" rel="stylesheet">
+{% endif %}
+
+<div id="{{ include.heading | strip_html }}" class="section">
+    <h1 class="text-right main-heading">{{ include.heading | upcase }}</h1>
+    {{ include.content }}
+</div>
