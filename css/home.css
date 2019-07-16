@@ -2,6 +2,16 @@
 body {
     background: black;
     color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00C9FF;
 }
 
 .hero {
@@ -137,6 +147,9 @@ body {
     .hero-byline {
         font-size: 1rem;
     }
+    p {
+        line-height: 1rem;
+    }
 }
 
 @media screen and (max-width: 380px), screen and (max-height: 730px){
@@ -152,4 +165,15 @@ body {
     letter-spacing: -0.07em;
     color: #313131;
     line-height: 0.8em;
+}
+
+.fa-arrow-right{
+    color:#00C9FF;
+}
+
+@media(min-width:767px){
+    p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 }
