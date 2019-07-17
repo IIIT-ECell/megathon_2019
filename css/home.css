@@ -1,16 +1,16 @@
 
 body {
-    background: url('/assets/backgrounds/ethereum-blockchain-1800x640.jpg');
+    background: url('/assets/backgrounds/IMG-MC-blockchain.jpg');
     background-position: center;
     background-size: cover;
     /* background: black; */
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
 }
-/* .section{
-    background: rgb(0,0,0);
+.section{
+    background: rgb(0,0,0,0.8);
     background-size: contain;
-} */
+}
 
 a {
     color: white;
