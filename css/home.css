@@ -7,10 +7,10 @@ body {
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
 }
-.section{
-    background: rgba(0,0,0,0.8);
+/* .section{
+    background: rgb(0,0,0);
     background-size: contain;
-}
+} */
 
 a {
     color: white;
