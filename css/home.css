@@ -170,7 +170,11 @@ a:hover{
     font-family: "Barlow Condensed";
     font-weight: 900;
     letter-spacing: -0.07em;
-    color: #313131;
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 1rem;
     line-height: 0.8em;
 }
 
@@ -194,4 +198,11 @@ a:hover{
 }
 .fab{
     color: #bba559;
+}
+
+.short-text { display: none; }
+
+@media (max-width: 440px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
 }
