@@ -2,6 +2,24 @@
 layout: page
 ---
 <link href="/css/home.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            parallax: false,
+            anchors: ['landing', 'about', '2019', 'online','problems','timeline','sponsors','sponsors2','contact'],
+            controlArrows: false,
+            navigation:true,
+            navigationPosition: 'right',
+        });
+        // methods
+        $.fn.fullpage.setAllowScrolling(true);
+    });
+
+</script>
 <div id="fullpage">
     <div class="section hero">
         <div class="hero-parent">
@@ -35,7 +53,7 @@ layout: page
                     <div class="arrow"></div>
                 </div>
             </a> -->
-            <a href="#about/1"><h1 class="display-1 text-center">Read More <i class="fa fa-arrow-right"></i></h1></a>
+            <a href="#about/1"><h1 class="display-5 text-center">Read More <i class="fa fa-arrow-right"></i></h1></a>
         </div>
         <div class="slide">
             <div class="container">
@@ -79,6 +97,145 @@ layout: page
                         In order to extend our national reach, we had introduced an online version of Megathon. Due to it's huge popularity last time, we decided to do it again. It is aimed mainly at people who are far from Hyderabad and cannot attend the event or people who don't want to pay to participate. Yes, you heard it right. It's free to participate. With more problem statements and better goodies, it's even bigger than before! 
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="main-heading display-2">PROBLEM STATEMENTS</h1>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p>
+                        To be announced soon! 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container" style="background: url('/assets/backgrounds/timeline.png') center no-repeat; background-size: contain; height: 80vh; margin: auto">
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row py-5">
+                <h1 class="main-heading display-2">SPONSORS</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="subheading text-center">
+                        Title Sponsor<br>
+                    </h1>
+                </div>
+                <div class="col">
+                    <h1 class="subheading text-center">
+                        Associate Sponsor
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col my-auto">
+                    <img class="img-fluid" src="/assets/sponsors/embibe.svg">
+                </div>
+                <div class="col my-auto">
+                    <img class="img-fluid" src="/assets/sponsors/CYRRUP.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="subheading">
+                        Internship Partner
+                    </h1>
+                </div>
+                <div class="col">
+                    <h1 class="subheading">
+                        Outreach Partner
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col my-auto">
+                    <img class="img-fluid" src="/assets/sponsors/IS_Logo.svg">
+                </div>
+                <div class="col my-auto">
+                    <img class="img-fluid" src="/assets/sponsors/hellointern.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row py-5">
+                <h1 class="main-heading display-2">CONTACT</h1>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Aishwarya Shrivastava
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+918179483672">
+                            <h3>+91 8179483672</h3> 
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Ayush Shivani
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+919559932625">
+                            <h3>+91 9559932625</h3>  
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Aditya Morolia
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+919559404288">
+                            <h3>+91 9559404288</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Priyank Modi
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+918328145692">
+                            <h3>+91 8328145692</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section fp-auto-height" id="footer">
+        <div class="row text-center">
+            <div class="col-xs-12 col-md-12 col-sm-12">
+                <ul class="list-inline pt-3">
+                    <li class="list-inline-item p-2"><a class="faficon" href="https://www.facebook.com/ecell.iiithyd/" target="_blank"><h2><i class="fab fa-facebook"></i></h2></a></li>
+                    <li class="list-inline-item p-2"><a class="faficon" href="https://www.instagram.com/ecell_iiith/" target="_blank"><h2><i class="fab fa-instagram"></i></h2></a></li>
+                    <li class="list-inline-item p-2"><a class="faficon" href="https://twitter.com/ecell_iiithyd" target="_blank"><h2><i class="fab fa-twitter"></i></h2></a></li>
+                    <li class="list-inline-item p-2"><a class="faficon" href="https://www.youtube.com/channel/UCE8mniuxsSH_SVYTmKWxtfA" target="_blank"><h2><i class="fab fa-youtube"></i></h2></a></li>
+                    <li class="list-inline-item p-2"><a class="faficon" href="https://github.com/IIIT-ECell" target="_blank"><h2><i class="fab fa-github"></i></h2></a></li>
+                </ul>
             </div>
         </div>
     </div>

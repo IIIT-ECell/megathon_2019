@@ -1,5 +1,6 @@
 
 body {
+    /* background: url('/assets/backgrounds/darkness.png'); */
     background: black;
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
@@ -160,7 +161,7 @@ a:hover{
 }
 
 .main-heading{
-    font-family: "Muli";
+    font-family: "Barlow Condensed";
     font-weight: 900;
     letter-spacing: -0.07em;
     color: #313131;
@@ -180,4 +181,12 @@ a:hover{
         font-size: 1.5rem;
         line-height: 2rem;
     }
+}
+
+#footer{
+
+    background: #313131;
+}
+.fab{
+    color: #bba559;
 }
