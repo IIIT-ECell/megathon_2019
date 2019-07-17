@@ -1,9 +1,15 @@
 
 body {
-    /* background: url('/assets/backgrounds/darkness.png'); */
-    background: black;
+    background: url('/assets/backgrounds/neural_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background: black; */
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
+}
+.section{
+    background: rgba(0,0,0,0.8);
+    background-size: contain;
 }
 
 a {
@@ -40,7 +46,7 @@ a:hover{
 }
 
 .hero-title-gradient {
-    background: linear-gradient(45deg, #92FE9D, #00C9FF);
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -184,7 +190,6 @@ a:hover{
 }
 
 #footer{
-
     background: #313131;
 }
 .fab{
