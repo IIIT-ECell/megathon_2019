@@ -167,8 +167,12 @@ a:hover{
     line-height: 0.8em;
 }
 
+.subheading{
+    color: #3B444C;
+}
+
 .fa-arrow-right{
-    color:#00C9FF;
+    color:#3B444C;
 }
 
 @media(min-width:767px){
