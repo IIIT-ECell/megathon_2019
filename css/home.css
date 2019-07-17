@@ -1,6 +1,7 @@
-
+---
+---
 body {
-    background: url('/assets/backgrounds/IMG-MC-blockchain.jpg');
+    background: url('{{site.baseurl}}/assets/backgrounds/IMG-MC-blockchain.jpg');
     background-position: center;
     background-size: cover;
     /* background: black; */
