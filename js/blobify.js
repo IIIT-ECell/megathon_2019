@@ -20,9 +20,9 @@ function randomShape() {
     }
 }
 
-function randomPosition(offset) {
-    const x = Math.random() * screen.width - offset[0],
-        y = Math.random() * screen.height - offset[1];
+function randomPosition(width, height, offset) {
+    const x = Math.random() * width - offset[0],
+        y = Math.random() * height - offset[1];
 
     return [x, y];
 }
@@ -68,24 +68,29 @@ function randomBlob(shape, color, position, parent) {
         "background": `${color}`,
         "border-radius": `${a}% ${100-a}% ${b}% ${100-b}% / ${x}% ${y}% ${100-y}% ${100-x}%`,
         "opacity": "0.25"
-    })
-
-    console.log($blob);
+    });
 
     $(parent).append($blob);
 }
 
 function main() {
-    const parents = [ "body" ];
+    const parentContainers = [ "#about", "#megathon_19",
+        "#howzhack", "#probstat", "#timeline",
+        "#sponsors0", "#sponsors1", "#contact" ];
+
+    let parents = [];
+
+    for (const container of parentContainers) {
+        parents.push(container + " .raise-box");
+    }
 
     for(const parent of parents) {
         for(let i = 0; i < 10; i++) {
             const shape = randomShape(),
                 color = randomColor(),
-                position = randomPosition(shape);
+                position = randomPosition($(parent).width(), $(parent).height(), shape);
 
             randomBlob(shape, color, position, parent);
-            console.log("Drew one at ", position, " with color ", color, " and shape ",  shape);
         }
     }
 }
