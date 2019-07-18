@@ -52,7 +52,7 @@ layout: page
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <p>
-                            Started in 2016, Megathon is Hyderabad's largest student-run Hackathon. Organised by E-Cell IIIT Hyderabad with the intention of promoting the spirit of entrepreneurship and development among the student community in and around the city, it has gotten bigger and more successful over the years; drawing 450 participants in its first year, and upwards of 600 in its second. 
+                            Started in 2016, Megathon is Hyderabad's largest student-run Hackathon. Organised by E-Cell IIIT Hyderabad with the intention of promoting the spirit of entrepreneurship and development among the student community in and around the city, it has gotten bigger and more successful over the years; drawing 450 participants in its first year, and upwards of 600 in its second.
                             It didn't stop there. In the 3rd edition we introduced an online event, taking the hackathon nationwide. The 2018 edition of Megathon had over 1000 participants from colleges all across the country.
                         </p>
                     </div>
@@ -111,7 +111,7 @@ layout: page
                     </div>
                     <div class="col-lg-5 col-sm-12">
                         <p>
-                            To be announced soon! 
+                            To be announced soon!
                         </p>
                     </div>
                 </div>
@@ -192,58 +192,21 @@ layout: page
                     <h1 class="main-heading display-2">contact_us</h1>
                 </div>
                 <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
+                    {% for person in site.data.contact %}
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4">
                             <h3>
-                                <span class="full-text">@aishwarya_shrivastava</span>
-                                <span class="short-text">@aishwarya _shrivastava</span>
+                                <span class="full-text">{{person.firstname}}_{{person.lastname}}</span>
+                                <span class="short-text">{{person.firstname}} _{{person.lastname}}</span>
                             </h3>
                         </div>
-                        <div class="col">
-                            <a href="tel:+918179483672">
-                                <h3>+91 8179483672</h3> 
+                        <div class="col-6 col-md-4">
+                            <a href="tel:+91{{person.phone}}">
+                                <h3>+91 {{person.phone}}</h3>
                             </a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <h3>
-                                <span class="full-text">@ayush_shivani</span>
-                                <span class="short-text">@ayush _shivani</span>
-                            </h3>
-                        </div>
-                        <div class="col">
-                            <a href="tel:+919559932625">
-                                <h3>+91 9559932625</h3>  
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <h3>
-                                <span class="full-text">@aditya_morolia</span>
-                                <span class="short-text">@aditya _morolia</span>
-                            </h3>
-                        </div>
-                        <div class="col">
-                            <a href="tel:+919559404288">
-                                <h3>+91 9559404288</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <h3>
-                                <span class="full-text">@priyank_modi</span>
-                                <span class="short-text">@priyank _modi</span>
-                            </h3>
-                        </div>
-                        <div class="col">
-                            <a href="tel:+918328145692">
-                                <h3>+91 8328145692</h3>
-                            </a>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
