@@ -1,13 +1,13 @@
 $(document).ready(main);
 
-function randomSize(min=20, max=120) {
+function randomSize(min=80, max=220) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-function randomShape() {
+function randomShape(square) {
     const coinToss = Math.random();
 
-    if (coinToss < 0.5) {
+    if (coinToss < 0.5 || square) {
         // let's make it a square
         const dimen = randomSize();
         return [dimen, dimen];
@@ -74,19 +74,18 @@ function randomBlob(shape, color, position, parent) {
 }
 
 function main() {
-    const parentContainers = [ "#about", "#megathon_19",
+    const parentContainers = [ "#aboutus", "#megathon_19",
         "#howzhack", "#probstat", "#timeline",
         "#sponsors0", "#sponsors1", "#contact" ];
 
     let parents = [];
 
-    for (const container of parentContainers) {
+    for (const container of parentContainers)
         parents.push(container + " .raise-box");
-    }
 
     for(const parent of parents) {
         for(let i = 0; i < 3; i++) {
-            const shape = randomShape(),
+            const shape = randomShape(square=true),
                 color = randomColor(),
                 position = randomPosition($(parent).width(), $(parent).height(), shape);
 
