@@ -201,9 +201,22 @@ a:hover{
     color: #bba559;
 }
 
+#timeline-container{
+    background: url('{{site.baseurl}}/assets/backgrounds/timeline.png') center no-repeat; 
+    background-size: contain; 
+    height: 80vh; 
+    margin: auto;
+}
+
 .short-text { display: none; }
 
 @media (max-width: 440px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
+    #timeline-container{
+        background: url('{{ site.baseurl }}/assets/backgrounds/timeline-mobile.png') center no-repeat;
+        background-size: contain;
+        height:80vh;
+        margin:auto;
+    }
 }
