@@ -10,7 +10,6 @@ body {
     display: flex;
     height:80vh;
     width: 90vw;
-    top:4vh;
     margin: auto;
     background: #191919;
     box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
