@@ -75,8 +75,8 @@ function randomBlob(shape, color, position, parent) {
 
 function main() {
     const parentContainers = [ "#aboutus", "#megathon_19",
-        "#howzhack", "#probstat", "#timeline",
-        "#sponsors0", "#sponsors1", "#contact" ];
+        "#howzhack", "#probstat", "#event_timeline",
+        "#sponsors0", "#sponsors1", "#contact_us" ];
 
     let parents = [];
 
