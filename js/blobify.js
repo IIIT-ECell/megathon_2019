@@ -21,8 +21,8 @@ function randomShape() {
 }
 
 function randomPosition(width, height, offset) {
-    const x = Math.random() * width - offset[0],
-        y = Math.random() * height - offset[1];
+    const x = Math.max(Math.random() * width - offset[0], 0),
+        y = Math.max(Math.random() * height - offset[1], 0);
 
     return [x, y];
 }
@@ -85,7 +85,7 @@ function main() {
     }
 
     for(const parent of parents) {
-        for(let i = 0; i < 10; i++) {
+        for(let i = 0; i < 3; i++) {
             const shape = randomShape(),
                 color = randomColor(),
                 position = randomPosition($(parent).width(), $(parent).height(), shape);
