@@ -1,7 +1,8 @@
 ---
 ---
 body {
-    background: url('{{site.baseurl}}/assets/backgrounds/imagedoc-darknoise.png');
+    background: url('{{site.baseurl}}/assets/backgrounds/test-bkg.png') center no-repeat;
+    background-size: cover; 
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -14,6 +15,8 @@ body {
     background: #191919;
     box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
     border-radius: 10px; 
+
+    position: relative;
 }
 
 .img-fluid{
@@ -219,7 +222,18 @@ a:hover{
     margin: auto;
 }
 
-.short-text { display: none; }
+.short-text {
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: none; 
+}
+
+.full-text{
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
 @media (max-width: 440px) {
     .short-text { display: inline-block; }
