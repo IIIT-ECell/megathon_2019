@@ -1,6 +1,13 @@
 $(document).ready(main);
 
-function randomSize(min=80, max=220) {
+function randomSize(min=0, max=0) {
+    const smaller = Math.min(screen.width, screen.height);
+    if(min == 0)
+        min = smaller / 8;
+
+    if(max == 0)
+        max = smaller / 3;
+
     return Math.floor(Math.random() * (max - min) + min);
 }
 
@@ -73,6 +80,27 @@ function randomBlob(shape, color, position, parent) {
     $(parent).append($blob);
 }
 
+function randomBlobSVG(shape, color, position, parent) {
+    const $blob = $("<img>", {
+        "id": `${shape}${color}${position}`
+    });
+
+    $blob.css({
+        "width": `${shape[0]}px`,
+        "height": `${shape[1]}px`,
+        "position": "absolute",
+        "left": `${position[0]}px`,
+        "top": `${position[1]}px`,
+        "opacity": "0.25"
+    });
+
+    const randomBlob = Math.floor(Math.random() * 22 + 1);
+
+    $blob.attr("src", `/assets/megathon-blobs/${randomBlob}.svg`);
+
+    $(parent).append($blob);
+}
+
 function main() {
     const parentContainers = [ "#aboutus", "#megathon_19",
         "#howzhack", "#probstat", "#event_timeline",
@@ -89,7 +117,7 @@ function main() {
                 color = randomColor(),
                 position = randomPosition($(parent).width(), $(parent).height(), shape);
 
-            randomBlob(shape, color, position, parent);
+            randomBlobSVG(shape, color, position, parent);
         }
     }
 }
