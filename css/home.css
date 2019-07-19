@@ -184,9 +184,7 @@ a:hover{
     font-family: "Barlow Condensed";
     font-weight: 900;
     letter-spacing: -0.07em;
-    background: linear-gradient(45deg, #107ba0, #6bbdd3);
-    background-clip: text;
-    -webkit-background-clip: text;
+    
     color: transparent;
     padding: 1rem;
     line-height: 0.8em;
@@ -221,7 +219,18 @@ a:hover{
     margin: auto;
 }
 
-.short-text { display: none; }
+.short-text {
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: none; 
+}
+
+.full-text{
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
 @media (max-width: 440px) {
     .short-text { display: inline-block; }
