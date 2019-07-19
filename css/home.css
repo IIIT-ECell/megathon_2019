@@ -1,7 +1,8 @@
 ---
 ---
 body {
-    background: url('{{site.baseurl}}/assets/backgrounds/imagedoc-darknoise.png');
+    background: url('{{site.baseurl}}/assets/backgrounds/test-bkg.png') center no-repeat;
+    background-size: cover; 
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -184,7 +185,9 @@ a:hover{
     font-family: "Barlow Condensed";
     font-weight: 900;
     letter-spacing: -0.07em;
-    
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     padding: 1rem;
     line-height: 0.8em;
