@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/css/banner.css">
+
+<div id="banner" class="rounded-card mx-auto container">
+    <i id="close-button" class="fa fa-times"></i>
+    <div class="banner-content">
+        <a href="https://howzhack.hackerearth.com">
+            <h3 class="font-weight-bold px-2 banner-heading text-center">
+                Register now for our Online Hackathon Howzhack. Get a chance to win exciting cash prices!
+            </h3>
+            <div class="lead btn palette-bg-blue cta-btn w-100">
+                Register now!
+            </div>
+        </a>
+    </div>
+</div>
+
+<script>
+    $("#close-button").click(() => {
+        $("#banner").hide();
+    })
+</script>
