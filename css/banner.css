@@ -58,7 +58,7 @@
 }
 
 #banner .palette-bg-blue {
-    background-color: #002240;
+    background:linear-gradient(45deg, #107ba0, #6bbdd3);
 }
 
 #banner .palette-bg-blue:hover {
