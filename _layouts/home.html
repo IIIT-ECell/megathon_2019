@@ -13,9 +13,10 @@ layout: page
             parallax: false,
             anchors: ['landing', 'about', '2019', 'online','problems','timeline','sponsors','sponsors2','contact'],
             controlArrows: false,
-            navigation:true,
+            navigation: true,
             navigationPosition: 'right',
-            recordHistory:false,
+            recordHistory: false,
+            slideSelector: '.horizontal-scrolling',
         });
         // methods
         $.fn.fullpage.setAllowScrolling(true);
@@ -103,8 +104,8 @@ layout: page
             </div>
         </div>
     </div>
-    <div class="section" id="probstat">
-        <div class="raise-box">
+    <div class="section vertical-scrolling" id="probstat">
+        <div class="slide raise-box horizontal-scrolling">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-sm-12 d-flex">
@@ -115,9 +116,33 @@ layout: page
                     </div>
                     <div class="col-lg-5 col-sm-12">
                         <p>
-                            To be announced soon!
+                            <a href="#howzhackproblems">Online round - Howzhack</button>
+                            <br>
+                            <a href="" disabled>Onsite round - not yet released!</a>
+
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide raise-box horizontal-scrolling" id="howzhackproblems" data-anchor="howzhackproblems">
+            <div class="container">
+                <div class="row">
+                    <p>
+                        Download problem statements for
+                        <ul>
+                            <li><a href="{{site.baseurl}}/assets/problems/apxor.pdf" target="_blank">Apxor</a></li>
+                            <li><a href="{{site.baseurl}}/assets/problems/cyrrup.pdf" target="_blank">Cyrrup</a></li>
+                            <li><a href="{{site.baseurl}}/assets/problems/dreamvu.pdf" target="_blank">DreamVu</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="slide raise-box horizontal-scrolling">
+            <div class="container">
+                <div class="row">
+                test2
                 </div>
             </div>
         </div>
