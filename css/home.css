@@ -373,9 +373,13 @@ a:hover {
     color: #e4e4e4;
     border-radius: 1rem;
     outline: none;
-    margin-right: 10px;
+    margin: 10px;
 }
 
+.main-links-problems,
+.sub-links-problems {
+    text-align: center;
+}
 .main-links-problems button {
     margin-right: 15px;
 }
@@ -384,5 +388,8 @@ a:hover {
     /* places buttons side by side*/
     .home-page-btn-list li {
         display: inline-block;
+    }
+    .home-page-btn {
+        font-size: 1.5rem;
     }
 }
