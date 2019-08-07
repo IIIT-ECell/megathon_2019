@@ -366,6 +366,8 @@ a:hover {
     padding: 1rem;
     cursor: pointer;
     font-size: 2rem;
+    font-family: sans-serif;
+    margin-right: 2rem;
 }
 
 @media (max-width: 992px) {
