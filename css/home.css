@@ -1,29 +1,30 @@
 ---
 ---
+
 body {
-    background: url('{{site.baseurl}}/assets/backgrounds/test-bkg.png') center no-repeat;
-    background-size: cover; 
+    background: url("{{site.baseurl}}/assets/backgrounds/test-bkg.png") center no-repeat;
+    background-size: cover;
     color: white;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
-.raise-box{
+.raise-box {
     display: flex;
-    height:80vh;
+    height: 80vh;
     width: 90vw;
     margin: auto;
     background: #191919;
     box-shadow: 2vw 2vw 2vw 1vw rgba(0, 0, 0, 0.5);
-    border-radius: 10px; 
+    border-radius: 10px;
 
     position: relative;
 }
 
-.img-fluid{
+.img-fluid {
     max-height: 25vmin;
 }
 
-.container{
+.container {
     margin: auto;
 }
 
@@ -31,9 +32,9 @@ a {
     color: white;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
-    color: #00C9FF;
+    color: #00c9ff;
 }
 
 .hero {
@@ -45,11 +46,11 @@ a:hover{
 .hero-parent {
     z-index: 1;
     position: absolute;
-    
+
     /* Vertical Centering */
     top: 50%;
     transform: translateY(-50%);
-    
+
     left: 4rem;
 }
 
@@ -68,28 +69,28 @@ a:hover{
 }
 
 .hero-byline {
-    font-family: 'Barlow', sans-serif;
+    font-family: "Barlow", sans-serif;
     font-weight: var(--font-semi-bold);
     font-size: 2rem;
     padding-left: 3px;
 }
 
 .hero-2019 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 30rem;
     font-weight: var(--font-extra-bold);
     color: #313131;
     line-height: 25rem;
     position: absolute;
     right: 4rem !important;
-    
+
     /* Vertical Centering */
     top: 50%;
     transform: translateY(-50%);
 }
 
 .hero-2019-small {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 26rem;
     font-weight: var(--font-extra-bold);
     color: #313131;
@@ -174,14 +175,14 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 380px), screen and (max-height: 730px){
+@media screen and (max-width: 380px), screen and (max-height: 730px) {
     .hero-2019-small {
         font-size: 19rem;
         line-height: 17rem;
     }
 }
 
-.main-heading{
+.main-heading {
     font-family: "Barlow Condensed";
     font-weight: 900;
     letter-spacing: -0.07em;
@@ -193,32 +194,32 @@ a:hover{
     line-height: 0.8em;
 }
 
-.subheading{
-    color: #3B444C;
+.subheading {
+    color: #3b444c;
 }
 
-.fa-arrow-right{
-    color:#3B444C;
+.fa-arrow-right {
+    color: #3b444c;
 }
 
-@media(min-width:767px){
-    p{
+@media (min-width: 767px) {
+    p {
         font-size: 1.5rem;
         line-height: 2rem;
     }
 }
 
-#footer{
+#footer {
     background: #313131;
 }
-.fab{
+.fab {
     color: #bba559;
 }
 
-#timeline-container{
-    background: url('{{site.baseurl}}/assets/backgrounds/timeline.png') center no-repeat; 
-    background-size: contain; 
-    height: 80vh; 
+#timeline-container {
+    background: url("{{site.baseurl}}/assets/backgrounds/timeline.png") center no-repeat;
+    background-size: contain;
+    height: 80vh;
     margin: auto;
 }
 
@@ -226,28 +227,32 @@ a:hover{
     background: linear-gradient(45deg, #107ba0, #6bbdd3);
     background-clip: text;
     -webkit-background-clip: text;
-    display: none; 
+    display: none;
 }
 
-.full-text{
+.full-text {
     background: linear-gradient(45deg, #107ba0, #6bbdd3);
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 @media (max-width: 440px) {
-    .short-text { display: inline-block; }
-    .full-text { display: none; }
-    #timeline-container{
-        background: url('{{ site.baseurl }}/assets/backgrounds/timeline-mobile.png') center no-repeat;
+    .short-text {
+        display: inline-block;
+    }
+    .full-text {
+        display: none;
+    }
+    #timeline-container {
+        background: url("{{ site.baseurl }}/assets/backgrounds/timeline-mobile.png") center no-repeat;
         background-size: contain;
-        height:80vh;
-        margin:auto;
+        height: 80vh;
+        margin: auto;
     }
 }
 
 /* BLOBS */
-#blob17{
+#blob17 {
     position: absolute;
     top: 53% !important;
     transform: translateY(-50%) !important;
@@ -255,7 +260,7 @@ a:hover{
     left: -1rem;
 }
 
-#blob18{
+#blob18 {
     position: absolute;
     top: 29%;
     transform: translateY(-50%) !important;
@@ -263,7 +268,7 @@ a:hover{
     left: 12rem;
 }
 
-#blob2{
+#blob2 {
     position: absolute;
     top: 15%;
     height: 15rem;
@@ -277,7 +282,7 @@ a:hover{
     right: 14rem;
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1500px) {
     #blob17 {
         left: 3rem;
     }
@@ -286,7 +291,7 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 2000px) {
     #blob17 {
         left: 10%;
     }
@@ -301,7 +306,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
     #blob17 {
         height: 25rem;
     }
@@ -311,7 +316,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     #blob17 {
         height: 18rem;
         left: 1rem;
@@ -320,12 +325,13 @@ a:hover{
         height: 13rem;
         top: 38%;
     }
-    #blob2, #blob3 {
+    #blob2,
+    #blob3 {
         display: none;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     #blob17 {
         height: 15rem;
         left: 1% !important;
@@ -337,7 +343,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     #blob17 {
         height: 12rem;
         left: -1% !important;
@@ -345,5 +351,26 @@ a:hover{
     #blob18 {
         height: 9rem;
         left: 16%;
+    }
+}
+
+.home-page-btn-list {
+    list-style: none;
+}
+
+.home-page-btn-list li {
+    margin-top: 10px;
+}
+
+.home-page-btn {
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+@media (max-width: 992px) {
+    /* places buttons side by side*/
+    .home-page-btn-list li {
+        display: inline-block;
     }
 }
