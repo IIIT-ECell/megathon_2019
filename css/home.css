@@ -367,7 +367,17 @@ a:hover {
     cursor: pointer;
     font-size: 2rem;
     font-family: sans-serif;
-    margin-right: 2rem;
+    display: inline-block;
+    background: linear-gradient(45deg, #107ba0, #6bbdd3);
+    border: none;
+    color: #e4e4e4;
+    border-radius: 1rem;
+    outline: none;
+    margin-right: 10px;
+}
+
+.main-links-problems button {
+    margin-right: 15px;
 }
 
 @media (max-width: 992px) {
