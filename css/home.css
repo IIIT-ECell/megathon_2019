@@ -22,7 +22,7 @@ body {
 
 .img-fluid {
     max-height: 25vmin;
-    max-width: 25vmax;
+    max-width: 25vmin;
 }
 
 .container {
