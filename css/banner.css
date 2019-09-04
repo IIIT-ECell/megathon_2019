@@ -71,7 +71,7 @@ a, a:hover {
     margin-left: 5px;
     margin-right: 5px;
     background-color: #002240;
-    color: white;
+    color: white !important;
 }
 
 .ticket-btn:hover {
