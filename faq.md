@@ -2,8 +2,6 @@
 layout: faq
 ---
 
-<div class="section"></div>
-
 # Megathon Onsite FAQs
 > #### I've submitted wrong details in the registration form, how can I correct them?
 All corrections can be handled at the time of physical registrations, nothing needs to be done as of now.
