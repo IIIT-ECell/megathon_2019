@@ -31,7 +31,7 @@ Both technology based as well as non-tech based solutions will be accepted.
 Yes, make sure your presentation has a slide containing your name,registration number,etc.
 
 > #### Is it an individual or team event?
-Students can participate either way- individually or as a team. The maximum strength of a team can be 5 members.Every team member needs to fulfil the eligibility criteria.
+Students can participate either way- individually or as a team. The maximum strength of a team can be 4 members.Every team member needs to fulfil the eligibility criteria.
 
 > #### Can a college have multiple teams?
 Yes.There is no restriction on the number of teams from a college.
