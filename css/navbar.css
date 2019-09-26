@@ -19,3 +19,9 @@
     color: white !important;
     margin-left: 60px;
 }
+
+.collapsing,
+.collapse.show {
+    background: #191919;
+    opacity: 0.8;
+}
