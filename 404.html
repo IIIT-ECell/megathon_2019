@@ -1,24 +1,46 @@
 ---
-layout: default
+layout: page
 ---
+<link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            parallax: false,
+            anchors: ['landing'],
+            controlArrows: false,
+            navigation:true,
+            navigationPosition: 'right',
+            recordHistory:false,
+        });
+        // methods
+        $.fn.fullpage.setAllowScrolling(true);
+    });
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+</script>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div id="fullpage">
+    <div class="section" id="megathon_19">
+        <div class="raise-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 d-flex">
+                        <h1 class="main-heading display-2 my-auto text-center">
+                            <span class="full-text">404</span>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p>
+                          Woah! This plage doesn't exist! 
+                          <br>
+                          Are you sure this is the address?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
