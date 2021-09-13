@@ -195,10 +195,10 @@ span, footer {  line-height: 1.8; }
 .tm-text-small { font-size: 0.9em; }
 .tm-text-center { text-align: center; }
 .tm-text-right { text-align: right; }
-.tm-text-primary { color: #4aa4af; }
+.tm-text-primary { color: #389fc3; }
 .tm-text-secondary { color: #9999CC; }
 .tm-text-link { color: #999; }
-.tm-text-link:hover { color: #4aa4af; }
+.tm-text-link:hover { color: #389fc3; }
 .tm-relative { position: relative; }
 
 .tm-hr {
@@ -320,6 +320,7 @@ span, footer {  line-height: 1.8; }
     height: 200px;
 }
 
+
 .tm-media-body {  padding-left: 30px; }
 
 .tm-media-span {
@@ -440,6 +441,12 @@ span, footer {  line-height: 1.8; }
 	font-size: 68.5%;
 }
 
+.tm-text-primary {
+    font-size: 450%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
 /*-----------------*/
 /***** Goliath *****/
 /*-----------------*/
@@ -686,4 +693,18 @@ figure.effect-goliath:hover p {
         width: 100px;
         height: 100px;
     }
+}
+
+@media (max-width: 420px) {
+    /* make main-header responsive */
+    .tm-text-primary {
+        font-size: 175%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #contact .tm-text-secondary {
+        font-size: 13px;
+    }
+
 }
