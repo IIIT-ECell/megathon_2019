@@ -336,7 +336,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .contact-box {
-    text-align: justify;
+    text-align: left;
     padding-left: 35%;
 }
 
