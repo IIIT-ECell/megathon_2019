@@ -708,3 +708,61 @@ figure.effect-goliath:hover p {
     }
 
 }
+.effect-layla img,
+.effect-layla h2{
+    -webkit-transform: translate3d(0,-30px,0);
+    transform: translate3d(0,-30px,0);
+    
+}
+
+.effect-layla img,
+.effect-layla h2,
+.effect-layla ::before,
+.effect-layla ::after{
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.effect-layla:hover img{
+    transition: 0.5s;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.effect-layla:hover ::before,
+.effect-layla:hover ::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.effect-layla:hover h2{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.effect-layla:hover ::after,
+.effect-layla:hover h2,
+.effect-layla:hover img {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.effect-layla:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    color: #fff;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
+    }    
