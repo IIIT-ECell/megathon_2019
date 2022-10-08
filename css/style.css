@@ -3797,13 +3797,16 @@ border-radius: 200px;
 	/* Bold text */
 	font-weight: 600;
 	/* Increase text size */
-	font-size: 5em;
+	font-size: 4em;
 	/* Text border */
 	text-shadow: 0 0 50px #211B5C;
 	/* Grayish bg */
 	background: #211B5C;	
 	/* Transparency */
 	opacity: 0.9;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
 }
 
 #regHead:hover {
