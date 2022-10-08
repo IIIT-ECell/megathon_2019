@@ -55,6 +55,10 @@ a:active {
 	bottom: 0;
 }
 
+.heading_container {
+	width: 100%;
+}
+
 .skyline_container {
 	position: relative;
 	width: 100%;
@@ -72,13 +76,29 @@ a:active {
 
 @media screen and (max-width: 992px) {
 	.skyline {
-		width: 200%;
+		width: 50%;
+	}
+
+	.heading h1 {
+		font-size: 5em !important;
+	}
+
+	.heading h2 {
+		font-size: 2em !important;
+	}
+
+	.heading h3 {
+		font-size: 1.5em !important;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.skyline {
-		width: 1000px;
+		width: 500px;
+	}
+
+	.heading h1 {
+		font-size: 4em !important;
 	}
 	.faq-line {
 		/* height: 200px; */
@@ -109,13 +129,15 @@ a:active {
 }
 
 .heading {
-	max-width: 60%;
+	width: 100%;
 	text-align: center;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, -65%);
-	top: 29%;
 	z-index: 1;
+	position: absolute;
+	top: 29%;
+}
+
+div.contactIcon {
+	margin-top: 2em !important;
 }
 
 div.contactIcon svg path {
@@ -2212,6 +2234,13 @@ div.contactIcon a:hover svg path {
 		display: block;
 		margin: auto;
 	}
+	.footer-social-links-container {
+		margin-top: 5em;
+	}
+
+	.footer-social-links {
+		width: 40% !important;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -2221,6 +2250,11 @@ div.contactIcon a:hover svg path {
 		top: 50%;
 		transform: translate(-50%, -50%);
 		width: 65%;
+	}
+
+	div.contactIcon {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
 	}
 }
 
@@ -3424,10 +3458,22 @@ border-radius: 200px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.footer-social-links-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 6em !important;
+}
+
 .footer-social-links {
 	font-size: 20px;
 	color: #818181;
 	font-family: 'Josefin Sans', sans-serif;
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .footer-logo-img {
@@ -3804,9 +3850,10 @@ border-radius: 200px;
 	background: #211B5C;	
 	/* Transparency */
 	opacity: 0.9;
-	/* display: flex;
+	display: flex;
 	justify-content: center;
-	align-items: center; */
+	align-items: center;
+	margin-top: 1em;
 }
 
 #regHead:hover {
