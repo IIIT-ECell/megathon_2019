@@ -218,6 +218,7 @@ div.contactIcon a:hover svg path {
 }
 
 #content div h1 {
+	width: 100% !important;
 	font-size: 4em;
 	margin-bottom: 20px;
 }
