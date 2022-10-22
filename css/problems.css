@@ -68,7 +68,10 @@ img {
 }
 
 .footer-note {
+    margin: 0 auto;
     margin-top: 5rem;
+    text-align: center;
+    width: 80%;
 }
 
 .footer-note a {
@@ -107,5 +110,4 @@ img {
     img {
         width: 80% !important;
     }
-    
 }
