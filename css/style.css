@@ -184,7 +184,7 @@ div.contactIcon a:hover svg path {
 
 .about {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 70vh;
 	position: relative;
 }
 
@@ -394,8 +394,8 @@ div.contactIcon a:hover svg path {
 }
 
 .what {
-	font-size: 4rem;
-	font-weight: 300;
+	font-size: 4.5rem;
+	font-weight: bold;
 	letter-spacing: 0.3rem;
 }
 .what1 {
@@ -2993,7 +2993,7 @@ div.contactIcon a:hover svg path {
 
 .sponsors {
 	padding-top: 10%;
-	padding-bottom: 10%;
+	padding-bottom: 0%;
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -3356,9 +3356,12 @@ div.contactIcon a:hover svg path {
 
 #sponsors-page h1 {
 	font-family: 'Josefin Sans', sans-serif !important;
-	font-weight: 500 !important;
+	font-weight: 700 !important;
 }
-
+#aftermovie h1 {
+	font-family: 'Josefin Sans', sans-serif !important;
+	font-weight: 700 !important;
+}
 @media screen and (max-width: 768px) {
 	.dev {
 		align-items: center;
