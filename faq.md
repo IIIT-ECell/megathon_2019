@@ -59,5 +59,5 @@ The developer/developers of the web/mobile application will have all rights and 
 
 > #### Where can I get to know about the event details?
 All details regarding the events will be present on [this website](https://www.megathon.tech) .Follow the E-Cell Facebook pages of [E-Cell IIIT Hyderabad](https://www.facebook.com/ecell.iiithyd/) & [E-Cell IIT Hyderabad](https://www.facebook.com/ecell.iithyderabad/) for regular updates.
-Who to contact for any queries?For any queries mail us [ecell.iiit.ac.in](mailto:ecell@iiit.ac.in).
+Who to contact for any queries?For any queries mail us [ecell@iiit.ac.in](mailto:ecell@iiit.ac.in).
 
