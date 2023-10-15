@@ -1,0 +1,48 @@
+<div id="faq">
+   <div class="container-fluid faq-box" style="z-index:1">
+       <h2 class="faq-heading">Frequently Asked Questions</h2>
+
+       {% for faq in site.data.faqs %}
+       <div class="faq-collapsible col-sm-12 faques">
+           <button class="collapsible" id="faq-question">
+               <i class="iconclass fas fa-caret-right"></i> &nbsp;{{ faq.question }}
+           </button>
+           <div class="content">
+               <p>
+                   {{ faq.answer }}
+               </p>
+           </div>
+       </div>
+       {% endfor %}
+
+   </div>
+</div>
+
+<script>
+   var coll = document.getElementsByClassName("collapsible");
+   var i;
+   for (i = 0; i < coll.length; i++) {
+   
+     coll[i].addEventListener("click", function () {
+   
+       this.classList.toggle("yellow");
+       this.classList.toggle("active");
+       
+       for (var j = 0; j < coll.length; j++) {
+         if (coll[j] != this) {
+           var content = coll[j].nextElementSibling;
+           content.style.maxHeight = null;
+           coll[j].classList.remove("yellow");
+   
+         }
+       }
+       var content = this.nextElementSibling;
+       if (content.style.maxHeight) {
+         content.style.maxHeight = null;
+       } else {
+         content.style.maxHeight = content.scrollHeight + "px";
+       }
+     });
+   }
+   
+</script>
