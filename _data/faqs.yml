@@ -9,3 +9,51 @@
 
 - question: "Do I need to pay money to register for the Hackathon?"
   answer: "The price of tickets will be made available on the registration link. Special coupon codes are available for selected students and our Campus Ambassadors."
+
+- question: "Do I need to be in Hyderabad to take part in the Hackathon?"
+  answer: "Yes. It is an onsite hackathon."
+
+- question: "What is the AI usage policy?"
+  answer: "AI tools are allowed. However, they must explicily mentioned wherever used in the codebase and cited in the final presentation."
+
+- question: "Do I need to have any specific qualification to be a participant for the Hackathon?"
+  answer: "Yes, you must be a student from any University/College in India."
+
+- question: "Do I need to be a student?"
+  answer: "Yes, you must be a student from any University/College in India."
+
+- question: "What kind of solution will be accepted?"
+  answer: "Both technology based as well as non-tech based solutions will be accepted."
+
+- question: "Is it an individual or team event?"
+  answer: "Students can participate either way - individually or as a team. The maximum strength of a team can be 5 members. Every team member needs to fulfil the eligibility criteria. Teams must be formed before registration."
+
+- question: "Can we form our own teams, or will we be allotted to a particular team?"
+  answer: "Participants are free to form their own teams. However, you must form your team before registration."
+
+- question: "Can a college have multiple teams?"
+  answer: "Yes. There is no restriction on the number of teams from a college."
+
+- question: "Can the participants of a team be from different colleges?"
+  answer: "Yes. There is no restriction here."
+
+- question: "How detailed should be the presentation?"
+  answer: "You will be asked to present your idea to the judges in-person. Please work accordingly."
+
+- question: "What is prototype code?"
+  answer: "It is basically a working code of the solution you are providing. It might not be fully prepared with all the functionalities, maybe just with the few main ones."
+
+- question: "Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries?"
+  answer: "There is no restriction to use any language, technology stack, or libraries. You can use any of them to create the web/mobile application. However, if you wish to use AI tools you must explicitly mention them in your presentation and submission."
+
+- question: "Who will own the IP(Intellectual Property) Rights to the product that I have built?"
+  answer: "For the most part, the developer/developers of the web/mobile application will have all rights and own the IP of the product, unless specified otherwise by the problem statement. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges."
+
+- question: "Where can I get to know about the event details?"
+  answer: "All details regarding the events will be present on this website. Announcements will be made on through facebook, email and the discod server."
+
+- question: "Whom can I contact for queries?"
+  answer: "Check out out contact us section. Or, drop us an email at ecell@iiit.ac.in"
+
+- question: "What is the format of the hackathon?"
+  answer: "You will be given a problem statement based on your priority and availibility - ties will be broken randomly. After this, you will need to make a midsubmission of your solution and later present your final solution to a panel of judges."
