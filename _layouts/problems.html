@@ -6,23 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Megathon 2023</title>
+
     <link rel="stylesheet" href="{{site.baseurl}}/css/problems.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154644271-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    
+    <link rel="shortcut icon" href="{{site.baseurl}}/assets/megathon_logo.png">
 
-        gtag('config', 'UA-154644271-1');
-    </script>
-    <script src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600;700&display=swap"
-        rel="stylesheet">
+    {% include common_library_links.html %}
+
+    {% include google_analytics.html %}
 </head>
 
 <body>
@@ -69,7 +61,7 @@
         <div class="footer" id="contact">
             <div class="row footer-row">
                 <div class="col-12">
-                    <a href="#" class="footer-title"><img src="{{site.baseurl}}/assets/megathon_logo.png"
+                    <a href="https://megathon.in/" class="footer-title"><img src="{{site.baseurl}}/assets/megathon_logo.png"
                             class="footer-logo-img"></a>
                 </div>
             </div>
