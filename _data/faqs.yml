@@ -57,3 +57,6 @@
 
 - question: "What is the format of the hackathon?"
   answer: "You will be given a problem statement based on your priority and availability - ties will be broken randomly. After this, you will need to make a midsubmission of your solution and later present your final solution to a panel of judges."
+
+- question: "Will the problem statement be given on the spot?"
+  answer: "Yes. The problem statement will be given on the spot."
