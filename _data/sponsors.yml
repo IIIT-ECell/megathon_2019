@@ -1,5 +1,17 @@
-challenge_sponsor:
-  name: Qualcomm
-  url: https://www.qualcomm.com/
-  image: /img/sponsors/Qualcomm_Logo.png
-  
+- sponsors: CHALLENGE SPONSORS
+  members:
+  - logo: Qualcomm.png
+    name: Qualcomm
+    url: https://www.qualcomm.com
+
+- sponsors: STUDENT OUTREACH PARTNER
+  members:
+  - logo: studentTribe.png
+    name: Student Tribe
+    url: https://www.studenttribe.in/
+
+- sponsors: GIFTING PARTNER
+  members:
+  - logo: oneImmersive.png
+    name: One Immersive
+    url: https://www.oneimmersive.us/
