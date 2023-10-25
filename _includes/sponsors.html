@@ -1,15 +1,21 @@
+ 
+ {% for sponsor in site.data.sponsors %}
  <div class="row" style="margin-bottom: 3%;" id="sponsors-page">
    <div class="col-12 text-center">
-       <h1 class="what">CHALLENGE SPONSOR</h1>
+       <h1 class="what"> {{ sponsor.sponsors }}</h1>
    </div>
 </div>
 
 <div class="row justify-content-around main-sponsors" style="margin-bottom: 5%;">
-   <div class="sponsors_main1">
-       <a href="{{ site.data.sponsors.challenge_sponsor.url }}" target="_blank">
-           <img src="{{ site.baseurl }}{{ site.data.sponsors.challenge_sponsor.image }}" class="sponsor-image elast">
+    {% for member in sponsor.members %}
+   <div class="sponsors_main3">
+       <a href="{{ member.url }}" target="_blank">
+           <img src="{{ site.baseurl }}/img/sponsors/{{ member.logo }}" class="sponsor-image elast">
        </a>
    </div>
+   {% endfor %}
 </div>
+
+{% endfor %}
 
 <!-- See _data/sponsors.yml -->

@@ -1,5 +1,29 @@
-challenge_sponsor:
-  name: Qualcomm
-  url: https://www.qualcomm.com/
-  image: /img/sponsors/Qualcomm_Logo.png
-  
+- sponsors: CHALLENGE SPONSORS
+  members:
+  - logo: Qualcomm.png
+    name: Qualcomm
+    url: https://www.qualcomm.com
+  - logo: telanganaGovt.png
+    name: Telangana Government
+    url: https://www.telangana.gov.in/
+  - logo: konnectNXT.png
+    name: KonnectNXT
+    url: https://konnectnxt.com/
+  - logo: CIE.png
+    name: CIE 
+    url: https://cie.iiit.ac.in
+  - logo: MeitY.jpg
+    name: MeitY
+    url: https://meity.gov.in
+
+- sponsors: STUDENT OUTREACH PARTNER
+  members:
+  - logo: studentTribe.png
+    name: Student Tribe
+    url: https://www.studenttribe.in/
+
+- sponsors: GIFTING PARTNER
+  members:
+  - logo: oneImmersive.png
+    name: One Immersive
+    url: https://www.oneimmersive.us/
