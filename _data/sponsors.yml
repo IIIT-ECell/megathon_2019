@@ -3,18 +3,21 @@
   - logo: Qualcomm.png
     name: Qualcomm
     url: https://www.qualcomm.com
-  - logo: telanganaGovt.png
-    name: Telangana Government
-    url: https://www.telangana.gov.in/
-  - logo: konnectNXT.png
-    name: KonnectNXT
-    url: https://konnectnxt.com/
   - logo: CIE.png
     name: CIE 
     url: https://cie.iiit.ac.in
   - logo: MeitY.jpg
     name: MeitY
     url: https://meity.gov.in
+  
+- sponsors: IDEATION PARTNERS 
+  members:  
+  - logo: telanganaGovt.png
+    name: Telangana Government
+    url: https://www.telangana.gov.in/
+  - logo: konnectNXT.png
+    name: KonnectNXT
+    url: https://konnectnxt.com/
 
 - sponsors: STUDENT OUTREACH PARTNER
   members:
@@ -27,3 +30,4 @@
   - logo: oneImmersive.png
     name: One Immersive
     url: https://www.oneimmersive.us/
+

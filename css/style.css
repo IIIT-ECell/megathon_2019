@@ -366,6 +366,13 @@ div.contactIcon a:hover svg path {
 	background-color: #0C0C0C;
 }
 
+.col-sponsors {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%
+}
+
+
 #female-pic {
 	max-width: 80%;
 	margin: 0 auto;
