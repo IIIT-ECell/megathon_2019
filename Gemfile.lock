@@ -75,7 +75,7 @@ GEM
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
+    webrick (1.8.2)
 
 PLATFORMS
   ruby
@@ -86,7 +86,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.16.0)
   minima (~> 2.5.1)
   tzinfo-data
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.3.22
