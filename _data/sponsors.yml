@@ -10,20 +10,20 @@
     name: MeitY
     url: https://meity.gov.in
   
-- sponsors: IDEATION PARTNERS 
-  members:  
-  - logo: telanganaGovt.png
-    name: Telangana Government
-    url: https://www.telangana.gov.in/
-  - logo: konnectNXT.png
-    name: KonnectNXT
-    url: https://konnectnxt.com/
+# - sponsors: IDEATION PARTNERS 
+#   members:  
+#   - logo: telanganaGovt.png
+#     name: Telangana Government
+#     url: https://www.telangana.gov.in/
+#   - logo: konnectNXT.png
+#     name: KonnectNXT
+#     url: https://konnectnxt.com/
 
-- sponsors: STUDENT OUTREACH PARTNER
-  members:
-  - logo: studentTribe.png
-    name: Student Tribe
-    url: https://www.studenttribe.in/
+# - sponsors: STUDENT OUTREACH PARTNER
+#   members:
+#   - logo: studentTribe.png
+#     name: Student Tribe
+#     url: https://www.studenttribe.in/
 
 
 
