@@ -1,11 +1,11 @@
-- question: "I’ve submitted wrong details in the registration form, how can I correct them?"
-  answer: "All corrections can be handled at the time of physical registrations, nothing needs to be done as of now."
+- question: "How can I edit, transfer, or cancel my registration?"
+  answer: "For any issues related to ticketing or registration, please email ecell@iiit.ac.in."
+  
+# - question: "I cannot attend the event for some reason, can someone attend it in my place?"
+#   answer: "Yes, as long as the following conditions are met: The replacement attendee meets the eligibility criteria. A mail has been written to ecell@iiit.ac.in before the event, stating the change. T-shirt sizes cannot be changed."
 
-- question: "I cannot attend the event for some reason, can someone attend it in my place?"
-  answer: "Yes, as long as the following conditions are met: The replacement attendee meets the eligibility criteria. A mail has been written to ecell@iiit.ac.in before the event, stating the change. T-shirt sizes cannot be changed."
-
-- question: "Can I cancel my registration?"
-  answer: "Cancellations will be handled on a case-to-case basis. Drop an email to ecell@iiit.ac.in stating your reason for cancellation. Please note, that NO REFUNDS WILL BE MADE. (T-shirts and other goodies have already been ordered, a refund is not possible)."
+# - question: "Can I cancel my registration?"
+#   answer: "Cancellations will be handled on a case-to-case basis. Drop an email to ecell@iiit.ac.in stating your reason for cancellation. Please note, that NO REFUNDS WILL BE MADE. (T-shirts and other goodies have already been ordered, a refund is not possible)."
 
 - question: "Do I need to pay money to register for the Hackathon?"
   answer: "The price of tickets will be made available on the registration link. Special coupon codes are available for selected students and our Campus Ambassadors."
