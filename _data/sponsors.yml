@@ -1,15 +1,15 @@
-- sponsors: OUR PREVIOUS CHALLENGE SPONSORS
+- sponsors: CHALLENGE SPONSOR
   members:
-  - logo: Qualcomm.png
+  - logo: qualcomm.png
     name: Qualcomm
     url: https://www.qualcomm.com
-  - logo: CIE.png
-    name: CIE 
-    url: https://cie.iiit.ac.in
-  - logo: MeitY.jpg
-    name: MeitY
-    url: https://meity.gov.in
   
+- sponsors: ASSOCIATE SPONSOR
+  members:
+  - logo: bytexl.png
+    name: byteXL
+    url: https://bytexl.com/
+
 # - sponsors: IDEATION PARTNERS 
 #   members:  
 #   - logo: telanganaGovt.png
@@ -19,11 +19,23 @@
 #     name: KonnectNXT
 #     url: https://konnectnxt.com/
 
-# - sponsors: STUDENT OUTREACH PARTNER
-#   members:
-#   - logo: studentTribe.png
-#     name: Student Tribe
-#     url: https://www.studenttribe.in/
+- sponsors: SNACKING PARTNER
+  members:
+  - logo: unibic.png
+    name: Unibic
+    url: https://www.unibicfoods.com/
+
+- sponsors: TECH PARTNER
+  members:
+  - logo: wolfram.png
+    name: Wolfram
+    url: https://www.wolfram.com/
+
+- sponsors: STUDENT OUTREACH PARTNER
+  members:
+  - logo: studentTribe.png
+    name: Student Tribe
+    url: https://www.studenttribe.in/
 
 
 
