@@ -40,9 +40,17 @@
     name: Student Tribe
     url: https://www.studenttribe.in/
 
+
 - sponsors: SOCIAL SPONSOR
   members:
   - logo: mindpeers.png
     name: Mindpeers
     url: https://www.mindpeers.co/
+
+
+- sponsors: NETWORK AND CO-ASSOCIATE SPONSOR
+  members:
+    - logo: impacthub.png
+      name: Impact Hub
+      url: https://www.impacthub.net/
 
