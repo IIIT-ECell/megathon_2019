@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    {%  include head.html %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,37 +15,42 @@
 
     {% include common_library_links.html %}
 
-    {% include google_analytics.html %}
+    {% include google_analytics.html %} 
 </head>
 
 <body>
-    <h1>PROBLEM STATEMENTS '23</h1>
+    {% include navbar.html %}
+    <div class="paddingfornavbar" style="padding: 5%;"></div>
+    <h1>PROBLEM STATEMENTS '24</h1>
 
     <div class="problem_container">
-        <img src="{{site.baseurl}}/img/sponsors/telanganaGovt.png" style="width: 50%; " alt="Problem Statement 1">
         <h3>PROBLEM 1</h3>
-        <h2>Govt. of Telangana Problem Statement</h2>
-        <p >The challenge involves managing paddy cultivation in Telangana State by identifying cultivated areas and paddy types, monitoring growth stages, integrating an Online Procurement System (OPMS) for issuing tokens post-harvest, detecting fake paddy, and using satellite imagery for tracking cultivation and growth stages, aiming to enhance procurement efficiency and authenticity.</p>
+
+        <img src="{{site.baseurl}}/img/sponsors/ihub_data.png" style="width: 50%; " alt="Problem Statement 1">
+        <h2>Predicting Natural Disasters Using Satellite Data</h2>
+        <p>Create a model that identifies patterns or risk factors indicating the onset of natural disasters like floods and landslides. Use satellite imagery and relevant data to predict these disasters, aiming for early detection and prediction to minimize impact.</p>
     </div>
 
     <div class="problem_container">
-        <img src="{{site.baseurl}}/img/sponsors/Qualcomm.png" style="width: 50%;" alt="Problem Statement 2">
         <h3>PROBLEM 2</h3>
-        <h2>Qualcomm Problem Statement</h2>
-        <p>Design a smart, lightweight medical query system (SLiMQ) that aids doctors by generating responses using unseen data. The system leverages external data, embeddings, vector databases, and pretrained LLMs to provide accurate answers. The goal is to make it efficient enough to run on off-the-shelf machines and edge devices.</p>
+
+        <img src="{{site.baseurl}}/img/sponsors/Qualcomm.png" style="width: 50%;" alt="Problem Statement 2">
+        <h2>Yoga Instructor Mobile Application</h2>
+        <p>Develop a mobile application that guides users through yoga poses using a body pose estimation model. The app should provide real-time feedback, comparing user movements to a "golden video" and generating alerts for incorrect postures.  Hardware acceleration (NPU preferred, GPU fallback) is essential.</p>
     </div>
 
     <div class="problem_container">
-        <img src="{{site.baseurl}}/img/sponsors/konnectNXT.png" alt= "Problem Statement 3">
         <h3>PROBLEM 3</h3>
-        <h2>KonnectNXT Problem Statement</h2>
-        <p>Analyze candidates' personalities and behaviors through social media analysis, psychometric tests, and challenging puzzles. Utilize machine learning techniques to evaluate and interpret results, providing a comprehensive assessment. Present findings in a visually appealing design that clearly conveys insights into candidates' traits, strengths, and potential fit for specific roles.</p>
+
+        <img src="{{site.baseurl}}/img/sponsors/mindpeers.png"  alt="Problem Statement 3">  
+        <h2>MindPeers Problem Statement</h2>
+        <p>Develop an NLP-based solution to automatically extract, classify, and analyze mental health concerns from user input.  The solution should include polarity detection, keyword extraction (NER), concern classification, intensity scoring, and a timeline-based sentiment shift analysis.</p>
     </div>
 
     
 
-    <p class="footer-note">Find more information on the problem statements on the Megathon '23 <a
-            href="https://discord.gg/HUFg9Z2J">Discord server</a>.</p>
+    <!-- <p class="footer-note">Find more information on the problem statements on the Megathon '24 <a -->
+            <!-- href="https://discord.com/invite/D9HXW3ZW">Discord server</a>.</p> -->
 
     <div class="footer-outer">
         <div class="footer" id="contact">
