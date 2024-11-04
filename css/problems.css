@@ -45,10 +45,10 @@ h3 {
     text-align: center;
 }
 
-ul {
+/* ul {
     font-size: 1.5rem;
-    font-weight: 300;
-}
+    font-weight: 300; ok idk why was this here  so i removed it and it works wow
+} */
 
 p {
     font-size: 1.5rem;
@@ -111,3 +111,5 @@ img {
         width: 80% !important;
     }
 }
+
+
