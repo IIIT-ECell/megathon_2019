@@ -1,27 +1,32 @@
 <div class="home-page" style="overflow: hidden;">
    <div class="heading">
-      <h2>WE ARE BACK!</h2>
       <div class="heading_container">
          <h1>MEGATHON '25</h1>
       </div>
       <h3>11-12 OCTOBER</h3>
 
-      <div class=""heading_container>
-         <br><br>
-         <h4> <span style="border-bottom: 1px solid #fff; padding-bottom: 2.5px"></span> Registrations opening soon</h4>
-         <!-- <h4>JOIN US FOR THE EVENT AND COMPETE FOR THE CHANCE TO WIN INR 4 LAKH WORTH PRIZES.</h4>
-         <h4>REGISTRATIONS WILL CLOSE AT 11:59 PM.</h4> -->
-         <!-- <h4> REGISTRATIONS OPEN</h4> -->
-      </div>
-      
-      <div class="row" style="justify-content: center; align-items: center;">
+      <div class="row" style="justify-content: center; align-items: center; margin-top: 1rem; flex-direction: column;">
+         <div class="hero__countdown" id="countdown" role="timer" aria-live="polite" aria-atomic="true">
+            <div class="cd-item" aria-label="Days remaining">
+               <div class="cd-value" data-unit="days">00</div>
+               <div class="cd-label">Days</div>
+            </div>
+            <div class="cd-item" aria-label="Hours remaining">
+               <div class="cd-value" data-unit="hours">00</div>
+               <div class="cd-label">Hours</div>
+            </div>
+            <div class="cd-item" aria-label="Minutes remaining">
+               <div class="cd-value" data-unit="minutes">00</div>
+               <div class="cd-label">Minutes</div>
+            </div>
+            <div class="cd-item" aria-label="Seconds remaining">
+               <div class="cd-value" data-unit="seconds">00</div>
+               <div class="cd-label">Seconds</div>
+            </div>
+         </div>
          <div class="row text-center" id="reg-btn">
-            <!-- <div style="z-index: 4; position: relative; justify-self: center;">
-               <a class="dev dev-btn" id="regHead" style="text-decoration-color: rgb(207, 168, 168)" href="https://konfhub.com/megathon-24">Register</a>
-            </div> -->
-<!-- disabled register button here :bottom: -->
-            <div style="z-index: 4; position: relative; justify-self: center;">
-               <a class="dev dev-btn" id="regHead" style="text-decoration-color: rgb(207, 168, 168);" href="https://forms.office.com/r/0kBw6e7P3k" target="_blank">Pre-Register Now!</a>
+            <div style="z-index: 4; position: relative; justify-self: center; margin-top: 1rem;">
+               <a class="dev dev-btn" id="regHead" style="text-decoration-color: rgb(207, 168, 168); font-size: 1.4rem; padding: 0.5rem 1rem; background: #6366f11e; border: 1px solid #6366f1; border-radius: 0.7rem; color: #6366f1; text-decoration: none; transition: background 0.3s ease, color 0.3s ease;" href="https://forms.office.com/r/0kBw6e7P3k" target="_blank">Pre-Register Now!</a>
             </div>
          </div>
       </div>            
@@ -43,4 +48,95 @@
          <img src="{{site.baseurl}}/img/Landing/skylinT.png"  alt="" class="skyline" style="z-index: -1; left: 75%">
       </div>
    </div>
+   <style>
+      .hero__countdown {
+         margin-top: 1.5rem;
+         display: grid;
+         grid-template-columns: repeat(2, minmax(0, 1fr));
+         gap: 0.75rem;
+         justify-items: center;
+         align-items: stretch;
+      }
+
+      @media (min-width: 640px) {
+         .hero__countdown {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem;
+         }
+      }
+
+      .cd-item {
+         background: rgba(255, 255, 255, 0.06);
+         border: 1px solid rgba(255, 255, 255, 0.12);
+         border-radius: 0.75rem;
+         padding: 0.75rem 0.5rem;
+         min-width: 7rem;
+         display: grid;
+         grid-template-rows: auto auto;
+         align-items: center;
+         justify-items: center;
+      }
+
+      .cd-value {
+         font-weight: 700;
+         font-variant-numeric: tabular-nums;
+         font-size: clamp(1.75rem, 3vw + 1rem, 2.5rem);
+         line-height: 1.1;
+         color: #ffffff;
+      }
+
+      .cd-label {
+         margin-top: 0.25rem;
+         font-size: 0.95rem;
+         color: #9ca3af;
+         letter-spacing: 0.08em;
+         text-transform: uppercase;
+      }
+   </style>
+   <script>
+      (function countdownInit() {
+         var root = document.getElementById('countdown');
+         if (!root) return;
+
+         // TODO: set time
+         var eventDate = new Date('2025-10-11T00:00:00');
+
+         var els = {
+            days: root.querySelector('[data-unit="days"]'),
+            hours: root.querySelector('[data-unit="hours"]'),
+            minutes: root.querySelector('[data-unit="minutes"]'),
+            seconds: root.querySelector('[data-unit="seconds"]')
+         };
+
+         function pad(n) { return n < 10 ? ('0' + n) : String(n); }
+
+         function render(diffMs) {
+            var totalSeconds = Math.max(0, Math.floor(diffMs / 1000));
+            var days = Math.floor(totalSeconds / 86400);
+            var hours = Math.floor((totalSeconds % 86400) / 3600);
+            var minutes = Math.floor((totalSeconds % 3600) / 60);
+            var seconds = totalSeconds % 60;
+
+            els.days.textContent = pad(days);
+            els.hours.textContent = pad(hours);
+            els.minutes.textContent = pad(minutes);
+            els.seconds.textContent = pad(seconds);
+         }
+
+         function tick() {
+            var now = new Date();
+            var diff = eventDate - now;
+            if (diff <= 0) {
+               render(0);
+               root.setAttribute('aria-label', 'Event started');
+               clearInterval(timer);
+               return;
+            }
+            render(diff);
+         }
+
+         tick();
+         var timer = setInterval(tick, 1000);
+      })();
+   </script>
 </div>
