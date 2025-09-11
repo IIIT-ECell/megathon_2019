@@ -841,9 +841,6 @@ div.contactIcon a:hover svg path {
 		border-radius: 12px;
 		transform: translate(0%, -87%);
 	}
-	.container-fluid {
-		margin-top: 20px;
-	}
 	#logo {
 		width: 75%;
 		margin-bottom: 20px;
@@ -2901,6 +2898,11 @@ div.contactIcon a:hover svg path {
 	-webkit-text-fill-color: transparent;
 	font-size: 24px;
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-logo {
+	height: 100px;
+	margin: 1rem;
 }
 
 .footer-info {

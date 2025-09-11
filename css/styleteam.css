@@ -121,11 +121,6 @@ button:hover,
     color: #fff;
 }
 
-.container-fluid
-{
-    margin-top: 0px !important;
-}
-
 
 @media screen and (max-width:1400px) {
     .navbar-brand {
