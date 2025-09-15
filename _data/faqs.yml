@@ -22,8 +22,8 @@
 - question: "Do I need to be a student?"
   answer: "Yes, you must be a student from any University/College in India."
 
-- question: "What kind of solution will be accepted?"
-  answer: "Both technology based as well as non-tech based solutions will be accepted."
+#- question: "What kind of solution will be accepted?"
+#  answer: "Both technology based as well as non-tech based solutions will be accepted."
 
 - question: "Is it an individual or team event?"
   answer: "Students can participate either way - individually or as a team. The maximum strength of a team can be 5 members. Every team member needs to fulfil the eligibility criteria. Teams must be formed before registration."
@@ -46,8 +46,8 @@
 - question: "Since there is no specific technology mentioned, are there any restrictions on using number of pre-built libraries?"
   answer: "There is no restriction to use any language, technology stack, or libraries. You can use any of them to create the web/mobile application. However, if you wish to use AI tools you must explicitly mention them in your presentation and submission."
 
-- question: "Who will own the IP(Intellectual Property) Rights to the product that I have built?"
-  answer: "For the most part, the developer/developers of the web/mobile application will have all rights and own the IP of the product, unless specified otherwise by the problem statement. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges."
+# - question: "Who will own the IP(Intellectual Property) Rights to the product that I have built?"
+#  answer: "For the most part, the developer/developers of the web/mobile application will have all rights and own the IP of the product, unless specified otherwise by the problem statement. However, all code needs to be in public domain (open source) so that it can be evaluated by the judges."
 
 - question: "Where can I get to know about the event details?"
   answer: "All details regarding the events will be present on this website. Announcements will be made on through facebook, email and the discord server."
@@ -55,8 +55,8 @@
 - question: "Whom can I contact for queries?"
   answer: "Check out out contact us section. Or, drop us an email at ecell@iiit.ac.in"
 
-- question: "What is the format of the hackathon?"
-  answer: "You will be given a problem statement based on your priority and availability - ties will be broken randomly. After this, you will need to make a midsubmission of your solution and later present your final solution to a panel of judges."
+#- question: "What is the format of the hackathon?"
+#  answer: "You will be given a problem statement based on your priority and availability - ties will be broken randomly. After this, you will need to make a midsubmission of your solution and later present your final solution to a panel of judges."
 
 - question: "Will the problem statement be given on the spot?"
   answer: "Yes. The problem statement will be given on the spot."

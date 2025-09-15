@@ -57,11 +57,17 @@ p {
     text-align: center;
 }
 
+.ecelllogo img {
+    width: auto !important;
+    height: 72px !important;
+    margin-bottom: 0 !important;
+}
+
 .footer-outer {
     margin-top: 10rem;
 }
 
-img {
+.problem_container img {
     width: 40%;
     height: auto;
     margin-bottom: 2rem;
@@ -107,7 +113,7 @@ img {
         font-size: 1.5rem;
     }
 
-    img {
+    .problem_container img {
         width: 80% !important;
     }
 }

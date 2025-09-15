@@ -19,3 +19,38 @@
     color: white !important;
     margin-left: 60px;
 }
+
+.navbar-toggler img {
+    width: 48px;
+}
+
+.navbar-toggler {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler img {
+        width: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-toggler img {
+        width: 28px;
+    }
+}
+
+.hamburger-icon {
+    width: 48px;
+}
+
+/* On small screens, shrink it */
+@media screen and (max-width: 768px) {
+    .hamburger-icon {
+        width: 32px !important; /* or any size you prefer */
+    }
+}
