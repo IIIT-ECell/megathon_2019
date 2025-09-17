@@ -1,56 +1,14 @@
-- sponsors: CHALLENGE SPONSOR
+- sponsors: TITLE SPONSOR
   members:
-  - logo: qualcomm.png
+  - logo: CHUBB_Logo_white_PMS-U.png
+    name: CHUBB
+    url: https://www.chubb.com/us-en/
+
+- sponsors: CHALLENGE SPONSORS
+  members:
+  - logo: qc_logo_flt_rgb_blu_pos.jpg
     name: Qualcomm
     url: https://www.qualcomm.com
-  - logo: ihub_data.png
-    name: iHub Data
-    url: https://ihub-data.iiit.ac.in/
-  
-- sponsors: ASSOCIATE SPONSOR
-  members:
-  - logo: bytexl.png
-    name: byteXL
-    url: https://bytexl.com/
-
-# - sponsors: IDEATION PARTNERS 
-#   members:  
-#   - logo: telanganaGovt.png
-#     name: Telangana Government
-#     url: https://www.telangana.gov.in/
-#   - logo: konnectNXT.png
-#     name: KonnectNXT
-#     url: https://konnectnxt.com/
-
-- sponsors: SNACKING PARTNER
-  members:
-  - logo: unibic.png
-    name: Unibic
-    url: https://www.unibicfoods.com/
-
-- sponsors: TECH PARTNER
-  members:
-  - logo: wolfram.png
-    name: Wolfram
-    url: https://www.wolfram.com/
-
-- sponsors: STUDENT OUTREACH PARTNER
-  members:
-  - logo: studentTribe.png
-    name: Student Tribe
-    url: https://www.studenttribe.in/
-
-
-- sponsors: SOCIAL SPONSOR
-  members:
-  - logo: mindpeers.png
-    name: Mindpeers
-    url: https://www.mindpeers.co/
-
-
-- sponsors: NETWORK AND CO-ASSOCIATE SPONSOR
-  members:
-    - logo: impacthub.png
-      name: Impact Hub
-      url: https://www.impacthub.net/
-
+  - logo: Bashini.png
+    name: Bhashini
+    url: https://bhashini.gov.in/

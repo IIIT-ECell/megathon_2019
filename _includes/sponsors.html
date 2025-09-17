@@ -9,7 +9,11 @@
             {% for member in sponsor.members %}
             <div class="sponsors_main3">
                 <a href="{{ member.url }}" target="_blank">
-                    <img src="{{ site.baseurl }}/img/sponsors/{{ member.logo }}" class="sponsor-image elast">
+                    {% if sponsor.sponsors == "TITLE SPONSOR" %}
+                    <img src="{{ site.baseurl }}/img/sponsors/{{ member.logo }}" alt="{{ member.name }} logo" class="title-sponsor-image">
+                    {% else %}
+                    <img src="{{ site.baseurl }}/img/sponsors/{{ member.logo }}" alt="{{ member.name }} logo" class="sponsor-image">
+                    {% endif %}
                 </a>
             </div>
             {% endfor %}
