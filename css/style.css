@@ -1162,6 +1162,7 @@ div.contactIcon a:hover svg path {
 	}
 	#content div p {
 		font-size: 1.6em;
+		font-family: 'Josefin Sans', sans-serif;
 	}
 	.brochure-box {
 		transform: translate(0%, -115%);
